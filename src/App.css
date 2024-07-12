@@ -1,0 +1,198 @@
+/* App.css */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.app {
+  font-family: 'Poppins', sans-serif;
+  color: #24272C;
+  background-color: #F2F2F2;
+  padding: 40px;
+}
+
+.hero-section {
+  text-align: center;
+  background: #3DB166;
+  color: white;
+  padding: 50px 0;
+}
+
+.content {
+  display: flex;
+
+}
+
+.services-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Increase gap between grid items */
+  padding: 50px; /* Padding around the grid */
+  margin-left: 1in; /* Start the grid 2 inches from the left */
+}
+
+
+.service-box {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  width: 55%; /* Adjusted width */
+  height: 55%; /* Adjusted height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow for visibility */
+}
+
+.service-icon {
+  font-size: 30px; /* Icon size */
+  color: #3DB166;
+  margin-bottom: 15px; /* Increased space between icon and title */
+}
+
+h3 {
+  font-size: 18px; /* Title font size */
+  margin-bottom: 1px; /* Increased space between title and paragraph */
+}
+
+p {
+  font-size: 14px; /* Paragraph font size */
+  color: #666; /* Paragraph color */
+  margin-bottom: 15px; /* Increased bottom margin for paragraph */
+}
+
+
+.service-icon {
+  font-size: 30px; /* Reduced icon size */
+  color: #3DB166;
+  margin-bottom: 1px;
+}
+
+.service-title {
+  font-size: 16px; /* Reduced title font size */
+  margin-bottom: 5px;
+}
+
+.sidebar {
+  margin-left: 100px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Gap between boxes */
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.contact-box,
+.brochure-box,
+.benefits-box {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.benefits-box {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.benefits-box-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-box {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  background-color: #3DB166; /* Adjust color as needed */
+  border-radius: 6px; /* Adjust border-radius as needed */
+  color: white;
+}
+
+.icon-box i {
+  font-size: 16px; /* Adjust icon size as needed */
+}
+
+
+.contact-box h4 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.contact-box p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.square-card {
+  width: 100%;
+  height: 45%;
+}
+
+.btn {
+  background: #3DB166;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Add text decoration for links */
+  margin: 0 auto; /* Center horizontally */
+}
+
+
+.btn i {
+  margin-right: 8px;
+}
+
+.btn:hover {
+  background: #192F59;
+}
+
+.footer-section {
+  text-align: center;
+  background: #192F59;
+  color: white;
+  padding: 50px 0;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li i {
+  margin-right: 5px;
+}
